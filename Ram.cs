@@ -1,3 +1,4 @@
+using System;
 namespace Garage
 {
     public class Ram : Vehicle // Gas powered truck
@@ -7,5 +8,10 @@ namespace Garage
         {
             // method definition omitted
         }
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Ram zips by you. Rrruummmbbllee!");
+        }
+        
     }
 }
