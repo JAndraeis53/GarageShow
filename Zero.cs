@@ -1,3 +1,4 @@
+using System;
 namespace Garage
 {
     public class Zero : Vehicle // Electric motorcycle
@@ -8,5 +9,11 @@ namespace Garage
         {
             // method definition omitted
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Zero zips by you. Yeeeooowwww!");
+        }
+
     }
 }
